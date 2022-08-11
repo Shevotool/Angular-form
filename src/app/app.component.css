@@ -1,0 +1,33 @@
+.container {
+  max-width: 46rem;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+.text-center {
+  align-items: center;
+}
+
+/* ******** Reset ******** */
+
+body {
+  height: 721px;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+h1 {
+  color: darkslategrey;
+  margin: 10px;
+  font-size: 2.5rem;
+}
+
+p {
+  line-height: 1.6;
+}
